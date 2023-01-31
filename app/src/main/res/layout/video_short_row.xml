@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:layout_width="match_parent">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="match_parent"
+        android:background="@color/right_arrow_background_color"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginEnd="10dp"
+        app:shapeAppearanceOverlay="@style/roundedImageView"
+        android:layout_height="20dp"/>
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/mainImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:outlineProvider="background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dummy_webstory"
+            app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/titleTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/hind_regular"
+                android:layout_above="@+id/shareImg"
+                android:textColor="@color/white"
+                android:text="Crypto Prices: दो साल के निचले स्तर पर बिटकॉइन, इथीरियम में भी बड़ी गिरावट दर्ज"
+                />
+
+            <ImageView
+                android:id="@+id/shareImg"
+                android:layout_width="46dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_share_app"
+                android:padding="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentBottom="true"
+                app:tint="@color/white"
+                android:layout_height="38dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/cardView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:visibility="visible"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+</RelativeLayout>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/nextStory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp16"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/dp4"
+        app:cardElevation="0dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/dp12">
+
+            <TextView
+                android:id="@+id/storyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hind_semibold"
+                android:text="अगली स्टोरी "
+                android:textColor="@color/red"
+                android:textSize="@dimen/text_fifteen" />
+
+            <TextView
+                android:layout_marginTop="@dimen/dp2"
+                android:id="@+id/storyDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/storyTitle"
+                android:fontFamily="@font/hind_semibold"
+                android:text="क्यूबाः हवाना के लग्जरी होटल साराटोगा में जोरदार धमाका, 22 लोगों की मौत"
+                android:textColor="@color/black_text"
+                android:textSize="@dimen/text_fifteen" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

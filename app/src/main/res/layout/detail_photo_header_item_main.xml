@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_semibold"
+            android:paddingLeft="@dimen/dp16"
+            android:paddingTop="@dimen/dp16"
+            android:paddingRight="@dimen/dp16"
+            android:text="गावस्कर ने सूर्यकुमार को लेकर पढ़े कसीदे, कहा- उनके बिना टीम नहीं पहुंचती 150 पार"
+            android:textColor="@color/black_text"
+            android:textSize="23dp" />
+
+        <LinearLayout
+            android:id="@+id/editorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleTv"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dp16"
+            android:paddingBottom="@dimen/dp6"
+            android:paddingTop="@dimen/dp6"
+            android:paddingRight="@dimen/dp16">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hind_semibold"
+                    android:text="TV9 Hindi"
+                    android:textColor="@color/black_text"
+                    android:textSize="@dimen/dp11"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/editedBy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tvTitle"
+                    android:fontFamily="@font/hind_regular"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text=" | Edited By: अनूप देव सिंह"
+                    android:textColor="@color/text_color_two"
+                    android:textSize="@dimen/dp11" />
+
+                <TextView
+                    android:id="@+id/timeTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvTitle"
+                    android:fontFamily="@font/hind_regular"
+                    android:text="TV9 Hindi"
+                    android:textColor="@color/text_color_two"
+                    android:textSize="@dimen/dp11" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <!--<TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editorLayout"
+            android:fontFamily="@font/hind_regular"
+            android:padding="@dimen/dp16"
+            android:text="@string/description_article"
+            android:textColor="@color/black_text"
+            android:textSize="@dimen/dp16" />-->
+
+        <WebView
+            android:id="@+id/description"
+            android:layout_below="@+id/editorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="WebViewLayout" />
+
+
+    </RelativeLayout>
+</layout>

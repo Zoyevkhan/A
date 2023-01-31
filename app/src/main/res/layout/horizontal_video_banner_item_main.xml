@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/video_banner_layout"
+    android:padding="15dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/mainRL"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mainHeadingTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/arrowImage"
+            android:fontFamily="@font/hind_semibold"
+            android:text="वीडियो "
+            android:textColor="@color/black_text"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/arrowImage"
+            android:layout_width="30dp"
+            android:src="@drawable/ic_right_arrow"
+            android:scaleType="center"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/bg_shape_arrow"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/itemRL"
+        app:layout_constraintTop_toBottomOf="@+id/mainRL"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/mainImageView"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:outlineProvider="background"
+            android:src="@drawable/image_dummy"
+            app:shapeAppearanceOverlay="@style/roundedImageView"
+            android:scaleType="centerCrop"
+            />
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:background="#B32C2C2C"
+            android:layout_marginStart="20dp"
+            android:visibility="visible"
+            android:layout_below="@id/mainImageView"
+            android:layout_marginTop="-40dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_youtube" />
+
+            <TextView
+                android:id="@+id/videoDurationTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/hind_regular"
+                android:text="05:10"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mainImageView"
+            android:text="बाइडेन का चौंकाने वाला खुलासा, कहा- युद्ध से पहले यूक्रेन ने अमेरिकी खुफिया एजेंसी की जानकारी"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/hind_semibold"
+            android:textColor="@color/black_text"
+            android:textSize="15dp"
+            android:layout_marginEnd="10dp"
+            />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/childRecyclerView"
+        app:layout_constraintTop_toBottomOf="@+id/itemRL"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        tools:itemCount="3"
+        android:layout_width="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/horizontal_video_banner_item_child"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

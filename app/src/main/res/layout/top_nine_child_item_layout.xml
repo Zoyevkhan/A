@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/itemContainer"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/countTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:fontFamily="@font/hind_light"
+        android:textSize="18dp"
+        android:textColor="@color/red"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/bg_itemcount_shape"
+        />
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="खतौली विधानसभा सीट पर क्या का जनता का मूड ?"
+        android:textColor="@color/black_text"
+        android:layout_marginStart="10dp"
+        android:maxLines="3"
+        android:fontFamily="@font/hind_regular"
+        android:textSize="14dp"
+        app:layout_constraintStart_toEndOf="@+id/countTv"
+        />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="56dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@color/gray_line_color"
+        app:layout_constraintStart_toEndOf="@+id/titleTv"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

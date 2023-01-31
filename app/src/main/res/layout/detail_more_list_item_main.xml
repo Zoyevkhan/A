@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:padding="@dimen/dp16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/mainHeadingTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_semibold"
+            android:text="ये भी पढ़ें "
+            android:textColor="@color/black_text"
+            android:textSize="18dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="@dimen/dp4"
+            android:layout_below="@+id/mainHeadingTv"
+            android:id="@+id/moreRecyclerView"
+            android:orientation="vertical"
+            tools:itemCount="3"
+            android:layout_width="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/vertical_layout_child_view"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</layout>

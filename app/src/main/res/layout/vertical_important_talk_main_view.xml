@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/mainRL"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mainHeadingTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/arrowImage"
+            android:fontFamily="@font/hind_semibold"
+            android:text="काम की बात "
+            android:textColor="@color/black_text"
+            android:textSize="18dp" />
+        
+        <ImageView
+            android:id="@+id/arrowImage"
+            android:layout_width="30dp"
+            android:src="@drawable/ic_right_arrow"
+            android:scaleType="center"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/bg_shape_arrow"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+   
+
+    
+
+    <ImageView
+        android:id="@+id/topImageView"
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/image_dummy"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toBottomOf="@+id/mainRL"
+        />
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/topImageView"
+        android:text="आपके शहर में कितने रुपये लीटर बिक रहा पेट्रोल-डीजल, यहां चेक करें लेटेस्ट रेट्स "
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/hind_semibold"
+        android:textColor="@color/black_text"
+        android:textSize="18dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <TextView
+        android:id="@+id/politicsTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        android:fontFamily="@font/hind_light"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="10dp"
+        android:textColor="@color/red"
+        android:text="POLITICS"
+        />
+
+    <TextView
+        android:id="@+id/timeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toEndOf="@id/politicsTv"
+        android:layout_marginStart="10dp"
+        android:textSize="10dp"
+        android:textColor="@color/time_ago_text"
+        android:text="5 MINS AGO"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/childRecyclerView"
+        app:layout_constraintTop_toBottomOf="@+id/politicsTv"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        tools:itemCount="3"
+        android:layout_width="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/vertical_layout_child_view"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

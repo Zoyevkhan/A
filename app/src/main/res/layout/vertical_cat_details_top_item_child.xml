@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:paddingBottom="10dp"
+    android:id="@+id/itemContainer"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="5dp"
+            android:text="उत्तर प्रदेश"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="14dp"
+            android:fontFamily="@font/hind_regular"
+            android:textColor="@color/app_text_color"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            android:background="@color/red"
+            android:layout_height="2dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

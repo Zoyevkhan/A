@@ -1,0 +1,21 @@
+{
+  "status": true,
+  "message": "Version Info",
+  "data": {
+    "id": "111",
+    "version": "1",
+    "min_version": "1",
+    "force_update": "0",
+    "app_url": "",
+    "app_id": "74",
+    "platform": "1",
+    "free_v": "",
+    "break_to": "0",
+    "break_from": "0",
+    "is_security": "0"
+  },
+  "time": 1674025355,
+  "interval": 10,
+  "limit": 0,
+  "cd_time": 16738709217652
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:id="@+id/itemContainer"
+    android:layout_marginBottom="10dp"
+    app:cardBackgroundColor="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_dummy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="14dp"
+        android:fontFamily="@font/hind_semibold"
+        android:textColor="@color/black_text"
+        android:text="चीन पर चढ़ाई की तैयारी में ताइवान..."
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/categoryTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        android:text="समाचार पॉडकास्ट"
+        android:textSize="12dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/light_red" />
+
+    <TextView
+        android:id="@+id/timeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/categoryTv"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        android:text="9:31 Min"
+        android:drawableStart="@drawable/ic_time_podcast"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:textSize="11dp"
+        android:fontFamily="@font/hind_regular"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:id="@+id/dateTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/timeTv"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        android:text="02 September, 2022"
+        android:drawableStart="@drawable/ic_date"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:textSize="11dp"
+        android:fontFamily="@font/hind_regular"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:id="@+id/artistTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/dateTv"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        android:text="Voice: Arjun Kapoor"
+        android:drawableStart="@drawable/ic_voice"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:textSize="11dp"
+        android:fontFamily="@font/hind_regular"
+        android:layout_marginStart="10dp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateTv"
+        android:src="@drawable/podcast_listen_red"
+        android:layout_marginEnd="10dp" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

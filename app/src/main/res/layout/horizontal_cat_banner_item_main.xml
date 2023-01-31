@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/headingMainTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="खेल"
+        android:textSize="18dp"
+        android:textColor="@color/black_text"
+        android:fontFamily="@font/hind_semibold"
+        />
+    <View
+        android:id="@+id/view"
+        android:layout_width="1dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#4B4B4B"
+        android:layout_toRightOf="@+id/headingMainTv"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/titleRecyclerView"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        tools:listitem="@layout/horizontal_photos_tab_item_child"
+        tools:itemCount="8"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_toRightOf="@+id/view"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:id="@+id/topImageView"
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/image_dummy"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/headingMainTv"
+        />
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topImageView"
+        android:text="गावस्कर ने सूर्यकुमार को लेकर पढ़े कसीदे, कहा- उनके बिना टीम नहीं पहुंचती 150 पार"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/hind_semibold"
+        android:textColor="@color/black_text"
+        android:textSize="18dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <TextView
+        android:id="@+id/politicsTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTv"
+        android:fontFamily="@font/hind_light"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="10dp"
+        android:textColor="@color/red"
+        android:text="CRICKET"
+        />
+
+    <TextView
+        android:id="@+id/timeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTv"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/politicsTv"
+        android:layout_marginStart="10dp"
+        android:textSize="10dp"
+        android:textColor="@color/time_ago_text"
+        android:text="5 MINS AGO"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/childRecyclerView"
+        android:layout_below="@+id/politicsTv"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        tools:itemCount="3"
+        android:layout_width="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/horizontal_cat_banner_item_child"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

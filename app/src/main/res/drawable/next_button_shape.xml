@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/button_solid_dark" />
+
+    <padding
+        android:bottom="@dimen/dp8"
+        android:left="@dimen/dp40"
+        android:right="@dimen/dp40"
+        android:top="@dimen/dp8" />
+
+    <corners
+        android:bottomLeftRadius="@dimen/dp30"
+        android:bottomRightRadius="@dimen/dp30"
+        android:topLeftRadius="@dimen/dp30"
+        android:topRightRadius="@dimen/dp30" />
+
+</shape>

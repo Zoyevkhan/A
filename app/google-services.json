@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "529280815553",
+    "project_id": "tv9-super-app",
+    "storage_bucket": "tv9-super-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529280815553:android:5abbd916f457ccdae4df40",
+        "android_client_info": {
+          "package_name": "com.tv9news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529280815553-h5linb09ii64m8q06s5ul8udtordul1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvAJ_xeVXRbTimcOJSLJpMOx_u0OyxwcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529280815553-h5linb09ii64m8q06s5ul8udtordul1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

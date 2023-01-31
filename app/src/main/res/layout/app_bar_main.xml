@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home.activities.MainActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.TV9News.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:visibility="gone"
+                app:popupTheme="@style/Theme.TV9News.PopupOverlay" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/drawer_control"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_menu_icon" />
+
+                    <ImageView
+                        android:id="@+id/logo_main"
+                        android:layout_width="50dp"
+                        android:layout_height="@dimen/dp24"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@+id/drawer_control"
+                        android:src="@drawable/splash_logo" />
+
+                    <ImageView
+                        android:id="@+id/notification"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/liveTv"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="18dp"
+                        android:src="@drawable/ic_notifications" />
+
+
+                    <TextView
+                        android:id="@+id/liveTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:text="@string/live"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="@font/hind_light"
+                        android:layout_toStartOf="@+id/subscribeTv"
+                        android:textColor="@color/red" />
+
+                    <TextView
+                        android:id="@+id/subscribeTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:text="@string/subscribe"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="@font/hind_light"
+                        android:background="@drawable/bg_subscribe_shape_red"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="@color/red" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_tablayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabIndicatorColor="#DC0000"
+                app:tabIndicatorHeight="3dp"
+                app:tabSelectedTextColor="@color/black_text"
+                app:tabTextColor="@color/black_text"
+                app:tabMode="scrollable" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <include layout="@layout/content_main" />
+
+        <include
+            android:id="@+id/bottomSheet"
+            layout="@layout/bottom_sheet_home_shorts" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

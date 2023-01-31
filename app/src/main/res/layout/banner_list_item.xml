@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content">
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/cardView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="230dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:paddingRight="@dimen/dp12"-->
+<!--        android:paddingLeft="@dimen/dp12"-->
+<!--        app:cardCornerRadius="12dp"-->
+<!--        >-->
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="@dimen/dp12"
+        android:layout_marginEnd="@dimen/dp12">
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:clipToOutline="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/bg_corner_radius_rectangular"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/image_dummy"
+                android:scaleType="centerCrop" />
+
+
+        </RelativeLayout>
+<!--    </androidx.cardview.widget.CardView>-->
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:background="#B32C2C2C"
+        android:layout_marginStart="20dp"
+        android:visibility="visible"
+        android:layout_below="@id/relativeLayout"
+        android:layout_marginTop="-40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            app:tint="@color/white"
+            android:src="@drawable/tabler_photo_plus" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/hind_regular"
+            android:text="7"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/hind_regular"
+        android:text="शमा सिकंदर ने 40 की उम्र में फिर किया मदहोश, बालकनी में क्रॉप टॉप पहन दिए पोज"
+        android:textColor="@color/black_text"
+        android:textSize="15dp" />
+
+</RelativeLayout>

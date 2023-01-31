@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="62dp">
+
+    <LinearLayout
+        android:id="@+id/mainLL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Videos"
+            android:textSize="9dp"
+            android:fontFamily="@font/hind_light" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/centerLL"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            app:layout_anchor="@+id/bottomSheet"
+            app:layout_anchorGravity="bottom|end"
+            android:id="@+id/shortIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/tv_nine_icon"
+            android:background="@drawable/bg_circle_shape_red" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:visibility="gone"
+        android:id="@+id/shimmerFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="true">
+
+            <View
+                android:id="@+id/logo"
+                android:layout_width="@dimen/dp66"
+                android:layout_height="@dimen/dp66"
+                android:background="@color/app_shimmer_box"
+                android:layout_marginTop="@dimen/dp12"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/choose_text"
+                android:layout_width="@dimen/dp100"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp20"
+                android:background="@color/app_shimmer_box"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="@dimen/dp200"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp6"
+                android:gravity="center"
+                android:background="@color/app_shimmer_box"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/choose_text"></TextView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/description">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp52"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginVertical="6dp"
+                    android:stateListAnimator="@null"
+                    app:cornerRadius="@dimen/dp30"
+                    app:backgroundTint="@color/app_shimmer_box" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp52"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginVertical="6dp"
+                    android:stateListAnimator="@null"
+                    app:cornerRadius="@dimen/dp30"
+                    app:backgroundTint="@color/app_shimmer_box" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp52"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginVertical="6dp"
+                    android:stateListAnimator="@null"
+                    app:cornerRadius="@dimen/dp30"
+                    app:backgroundTint="@color/app_shimmer_box" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp52"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginVertical="6dp"
+                    android:stateListAnimator="@null"
+                    app:cornerRadius="@dimen/dp30"
+                    app:backgroundTint="@color/app_shimmer_box" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp52"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginVertical="6dp"
+                    android:stateListAnimator="@null"
+                    app:cornerRadius="@dimen/dp30"
+                    app:backgroundTint="@color/app_shimmer_box" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp52"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginVertical="6dp"
+                    android:stateListAnimator="@null"
+                    app:cornerRadius="@dimen/dp30"
+                    app:backgroundTint="@color/app_shimmer_box" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</layout>

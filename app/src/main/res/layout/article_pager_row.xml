@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="5dp"
+    android:layout_marginBottom="20dp"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="20dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/mainImageView"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:src="@drawable/image_dummy"
+        android:scaleType="centerCrop"
+        />
+
+
+    <TextView
+        android:id="@+id/categoryTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainImageView"
+        android:textSize="11dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/hind_semibold"
+        android:textColor="@color/red"
+        android:text="Russia Ukraine War"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7 Mins AGO | 05:30"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/mainImageView"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/categoryTv"
+        android:textSize="11dp"
+        android:fontFamily="@font/hind_semibold"
+        />
+
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/categoryTv"
+        android:textSize="17dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/hind_semibold"
+        android:textColor="@color/black_text"
+        android:text="Crypto Prices: दो साल के निचले स्तर पर बिटकॉइन, इथीरियम में भी बड़ी गिरावट दर्ज"
+        />
+
+    <TextView
+        android:id="@+id/descriptionTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTv"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/hind_regular"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="जनसंख्या विस्फोट (Population Explosion) को लेकर भारतीय जनता पार्टी (BJP) के नेता और पूर्व केंद्रीय मंत्री मुख्तार अब्बास नकवी का बयान सामने आया है." />
+
+    <TextView
+        android:id="@+id/readMoreTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descriptionTv"
+        android:layout_marginStart="10dp"
+        android:textSize="11dp"
+        android:fontFamily="@font/hind_regular"
+        android:textColor="@color/app_text_color"
+        android:text="Read More"
+        />
+    
+    <ImageView
+        android:layout_width="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/descriptionTv"
+        android:src="@drawable/ic_share_app"
+        android:padding="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="-10dp"
+        app:tint="@color/app_text_color"
+        android:background="@drawable/bg_rectangular_gray"
+        android:layout_height="38dp"/>
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="match_parent"
+        android:background="@color/right_arrow_background_color"
+        android:layout_marginTop="-25dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/cardView"
+        android:layout_marginEnd="10dp"
+        app:shapeAppearanceOverlay="@style/roundedImageView"
+        android:layout_height="20dp"/>
+
+</RelativeLayout>
+

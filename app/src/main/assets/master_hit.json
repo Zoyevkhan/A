@@ -1,0 +1,584 @@
+{
+  "status": true,
+  "message": "Master hit content",
+  "data": {
+    "language": [
+      {
+        "id": "1",
+        "lang_name": "Hindi",
+        "lang_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/langauge_logo\/55069533_tv9-bangla-logo.png",
+        "logo_sizes": "3000X2678",
+        "category": [
+          {
+            "id": "2",
+            "lang_id": "1",
+            "category_title": "\u0916\u0947\u0932",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/43572222_channels4_profile.jpg",
+            "logo_sizes": "900X900"
+          },
+          {
+            "id": "3",
+            "lang_id": "1",
+            "category_title": "\u0939\u0947\u0932\u094d\u0925",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/70566973_maxresdefault.jpg",
+            "logo_sizes": "514X487"
+          },
+          {
+            "id": "4",
+            "lang_id": "1",
+            "category_title": "\u0932\u093e\u0907\u092b\u0938\u094d\u091f\u093e\u0907\u0932",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/74019804_Trends%209%20logo%201.png",
+            "logo_sizes": "180X80"
+          },
+          {
+            "id": "24",
+            "lang_id": "1",
+            "category_title": "\u0932\u093e\u0907\u0935",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/125082924_Frame%20%287%29.png",
+            "logo_sizes": "96X88"
+          },
+          {
+            "id": "25",
+            "lang_id": "1",
+            "category_title": "\u092a\u0949\u092a\u0941\u0932\u0930",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/577773725_popular%202.png",
+            "logo_sizes": "96X96"
+          },
+          {
+            "id": "26",
+            "lang_id": "1",
+            "category_title": "\u0935\u0940\u0921\u093f\u092f\u094b",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/346821326_videos%202.png",
+            "logo_sizes": "96X96"
+          },
+          {
+            "id": "27",
+            "lang_id": "1",
+            "category_title": "\u0926\u0947\u0936",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/466469127_videos%203.png",
+            "logo_sizes": "96X96"
+          },
+          {
+            "id": "28",
+            "lang_id": "1",
+            "category_title": "\u0930\u093e\u091c\u094d\u092f",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/379134228_Vector.png",
+            "logo_sizes": "104X108"
+          },
+          {
+            "id": "29",
+            "lang_id": "1",
+            "category_title": "\u092e\u0928\u094b\u0930\u0902\u091c\u0928",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/220015729_Frame%20%281%29.png",
+            "logo_sizes": "96X96"
+          },
+          {
+            "id": "30",
+            "lang_id": "1",
+            "category_title": "\u0926\u0941\u0928\u093f\u092f\u093e",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/222412930_Frame%20%282%29.png",
+            "logo_sizes": "96X96"
+          },
+          {
+            "id": "31",
+            "lang_id": "1",
+            "category_title": "\u0911\u091f\u094b",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/780377031_Group%20%282%29.png",
+            "logo_sizes": "96X74"
+          },
+          {
+            "id": "32",
+            "lang_id": "1",
+            "category_title": "\u091f\u0947\u0915",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/2555432_Group%20%283%29.png",
+            "logo_sizes": "96X88"
+          },
+          {
+            "id": "33",
+            "lang_id": "1",
+            "category_title": "\u0905\u092a\u0930\u093e\u0927",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/67260533_Vector%20%282%29.png",
+            "logo_sizes": "96X96"
+          },
+          {
+            "id": "34",
+            "lang_id": "1",
+            "category_title": "\u092d\u093e\u0917\u094d\u092f\u092e\u0902\u0924\u094d\u0930",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/787795634_Frame%20%283%29.png",
+            "logo_sizes": "96X96"
+          },
+          {
+            "id": "35",
+            "lang_id": "1",
+            "category_title": "\u0911\u0921 \u0928\u094d\u092f\u0942\u095b",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/533602835_Frame%20%284%29.png",
+            "logo_sizes": "96X106"
+          },
+          {
+            "id": "36",
+            "lang_id": "1",
+            "category_title": "\u0915\u0930\u093f\u092f\u0930",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/293165936_Frame%20%285%29.png",
+            "logo_sizes": "92X88"
+          },
+          {
+            "id": "37",
+            "lang_id": "1",
+            "category_title": "\u0913\u092a\u093f\u0928\u093f\u092f\u0928",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/365125437_Frame%20%286%29.png",
+            "logo_sizes": "56X112"
+          }
+        ],
+        "states": [
+          {
+            "id": "3",
+            "lang_id": "1",
+            "state_name": "\u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936",
+            "state_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/states\/27811283_index.png",
+            "logo_sizes": "237X212"
+          },
+          {
+            "id": "4",
+            "lang_id": "1",
+            "state_name": "\u0939\u093f\u0902\u0926\u0940",
+            "state_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/states\/9211824_tv9-hindi-logo.png",
+            "logo_sizes": "3000X2678"
+          },
+          {
+            "id": "5",
+            "lang_id": "1",
+            "state_name": "\u0930\u093e\u091c\u0938\u094d\u0925\u093e\u0928",
+            "state_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/states\/53119165_4PN-rZrv_400x400.jpg",
+            "logo_sizes": "300X300"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "lang_name": "English",
+        "lang_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/langauge_logo\/45478152_English.png",
+        "logo_sizes": "737X419",
+        "category": [
+          {
+            "id": "5",
+            "lang_id": "2",
+            "category_title": "Business",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/19319865_Money9%201.png",
+            "logo_sizes": "72X81"
+          },
+          {
+            "id": "6",
+            "lang_id": "2",
+            "category_title": "Sports",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/55704186_channels4_profile.jpg",
+            "logo_sizes": "900X900"
+          },
+          {
+            "id": "7",
+            "lang_id": "2",
+            "category_title": "Health",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/12580087_maxresdefault.jpg",
+            "logo_sizes": "514X487"
+          },
+          {
+            "id": "8",
+            "lang_id": "2",
+            "category_title": "Lifestyle",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/37611368_Trends%209%20logo%201.png",
+            "logo_sizes": "180X80"
+          }
+        ],
+        "states": [
+          {
+            "id": "6",
+            "lang_id": "2",
+            "state_name": "English",
+            "state_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/states\/39249006_English.png",
+            "logo_sizes": "737X419"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "lang_name": "Bangla",
+        "lang_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/langauge_logo\/28272823_tv9-bangla-logo.png",
+        "logo_sizes": "3000X2678",
+        "category": [
+          {
+            "id": "9",
+            "lang_id": "3",
+            "category_title": "\u09ac\u09bf\u09b8\u09a8\u09c7\u09b8",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/556789_Money9%201.png",
+            "logo_sizes": "72X81"
+          },
+          {
+            "id": "10",
+            "lang_id": "3",
+            "category_title": "\u09b8\u09cd\u09aa\u09cb\u09b0\u09cd\u099f\u09b8",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/326085310_channels4_profile.jpg",
+            "logo_sizes": "900X900"
+          },
+          {
+            "id": "11",
+            "lang_id": "3",
+            "category_title": "\u09b9\u09c7\u09b2\u09a5",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/715601311_maxresdefault.jpg",
+            "logo_sizes": "514X487"
+          }
+        ],
+        "states": []
+      },
+      {
+        "id": "4",
+        "lang_name": "Gujrati",
+        "lang_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/langauge_logo\/29447904_tv9-gujarati-logo.png",
+        "logo_sizes": "3000X2678",
+        "category": [
+          {
+            "id": "12",
+            "lang_id": "4",
+            "category_title": "\u0ab2\u0ac0\u0aab\u0ac7\u0ab8\u0acd\u0a9f\u0ac0\u0ab2\u0ac7",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/761529312_Trends%209%20logo%201.png",
+            "logo_sizes": "180X80"
+          },
+          {
+            "id": "13",
+            "lang_id": "4",
+            "category_title": "\u0ab8\u0acd\u0aaa\u0acb\u0ab0\u0acd\u0a9f\u0acd\u0ab8",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/93891813_channels4_profile.jpg",
+            "logo_sizes": "900X900"
+          }
+        ],
+        "states": []
+      },
+      {
+        "id": "5",
+        "lang_name": "Kannada",
+        "lang_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/langauge_logo\/37929475_tv9-kannada-logo.png",
+        "logo_sizes": "2809X2486",
+        "category": [
+          {
+            "id": "14",
+            "lang_id": "5",
+            "category_title": "\u0cac\u0cbf\u0cb8\u0cbf\u0ca8\u0cc6\u0cb8\u0ccd",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/331579314_Money9%201.png",
+            "logo_sizes": "72X81"
+          },
+          {
+            "id": "15",
+            "lang_id": "5",
+            "category_title": "\u0cae\u0ca8\u0ccb\u0cb0\u0c82\u0c9c\u0ca8\u0ccd",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/80481715_manoranjan-tv-logo-1.jpg",
+            "logo_sizes": "546X324"
+          }
+        ],
+        "states": []
+      },
+      {
+        "id": "6",
+        "lang_name": "Marathi",
+        "lang_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/langauge_logo\/41629026_tv9-marathi-logo.png",
+        "logo_sizes": "2809X2487",
+        "category": [
+          {
+            "id": "16",
+            "lang_id": "6",
+            "category_title": "\u0939\u0947\u0905\u0932\u094d\u0925",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/93144016_maxresdefault.jpg",
+            "logo_sizes": "514X487"
+          },
+          {
+            "id": "17",
+            "lang_id": "6",
+            "category_title": "\u092c\u0941\u0938\u0940\u0928\u094d\u0938\u0938",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/490115317_Money9%201.png",
+            "logo_sizes": "72X81"
+          }
+        ],
+        "states": [
+          {
+            "id": "8",
+            "lang_id": "6",
+            "state_name": "Maharastra",
+            "state_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/states\/64177828_tv9-marathi-logo.png",
+            "logo_sizes": "\"https:\\\/\\\/d1wxh31cdpnls0.cloudfront.net\\\/74\\\/admin_v1\\\/category_management\\\/states\\\/64177828_tv9-marathi-logo.png\""
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "lang_name": "Telegu",
+        "lang_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/langauge_logo\/2465787_tv9-telegu-logo.png",
+        "logo_sizes": "2809X2486",
+        "category": [
+          {
+            "id": "18",
+            "lang_id": "7",
+            "category_title": "\u0c39\u0c46\u0c32\u0c4d\u0c24\u0c4d",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/424995018_maxresdefault.jpg",
+            "logo_sizes": "514X487"
+          },
+          {
+            "id": "19",
+            "lang_id": "7",
+            "category_title": "\u0c38\u0c4d\u0c2a\u0c4b\u0c30\u0c4d\u0c1f\u0c4d\u0c38\u0c4d",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/513928119_channels4_profile.jpg",
+            "logo_sizes": "900X900"
+          }
+        ],
+        "states": []
+      },
+      {
+        "id": "8",
+        "lang_name": "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40",
+        "lang_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/langauge_logo\/65044508_tv9-punjabi-logo-300x270.png",
+        "logo_sizes": "300X270",
+        "category": [
+          {
+            "id": "20",
+            "lang_id": "8",
+            "category_title": "\u0a2c\u0a5b\u0a38",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/32686020_Money9%201.png",
+            "logo_sizes": "72X81"
+          },
+          {
+            "id": "21",
+            "lang_id": "8",
+            "category_title": "\u0a38\u0a2a\u0a4b\u0a30\u0a1f\u0a38",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/376756321_channels4_profile.jpg",
+            "logo_sizes": "900X900"
+          },
+          {
+            "id": "22",
+            "lang_id": "8",
+            "category_title": "\u0a1f\u0a71\u0a1a",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/298005322_pngtree-tech-logo-design-image_86920.jpg",
+            "logo_sizes": "640X640"
+          },
+          {
+            "id": "23",
+            "lang_id": "8",
+            "category_title": "\u0a06\u0a1f\u0a4b",
+            "category_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/categories\/442367723_pngtree-auto-logo-car-png-image_968837.jpg",
+            "logo_sizes": "640X640"
+          }
+        ],
+        "states": [
+          {
+            "id": "7",
+            "lang_id": "8",
+            "state_name": "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c",
+            "state_logo": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/category_management\/states\/24724797_download.jfif",
+            "logo_sizes": "225X225"
+          }
+        ]
+      }
+    ],
+    "top_menu": [],
+    "left_menu": [
+      {
+        "id": "1",
+        "title": "Live",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/74117551_Frame.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673952707",
+        "app_id": "74"
+      },
+      {
+        "id": "2",
+        "title": "Popular",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/27404412_popular%202.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673952858",
+        "app_id": "74"
+      },
+      {
+        "id": "3",
+        "title": "Videos",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/5837663_videos%202.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673953001",
+        "app_id": "74"
+      },
+      {
+        "id": "4",
+        "title": "\u0913\u092a\u093f\u0928\u093f\u092f\u0928",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/55603864_Frame%20%286%29.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673958287",
+        "app_id": "74"
+      },
+      {
+        "id": "5",
+        "title": "\u0915\u0930\u093f\u092f\u0930",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/63200635_Frame%20%285%29.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673958310",
+        "app_id": "74"
+      },
+      {
+        "id": "6",
+        "title": "\u0911\u0921 \u0928\u094d\u092f\u0942\u095b\t",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/55258966_Frame%20%284%29.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673958330",
+        "app_id": "74"
+      },
+      {
+        "id": "7",
+        "title": "\u092d\u093e\u0917\u094d\u092f\u092e\u0902\u0924\u094d\u0930",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/22653987_Frame%20%283%29.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673958348",
+        "app_id": "74"
+      },
+      {
+        "id": "8",
+        "title": "\u0905\u092a\u0930\u093e\u0927",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/42871398_Vector%20%282%29.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673958372",
+        "app_id": "74"
+      },
+      {
+        "id": "9",
+        "title": "\u091f\u0947\u0915",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/36054989_Group%20%283%29.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673958398",
+        "app_id": "74"
+      },
+      {
+        "id": "10",
+        "title": "\u0911\u091f\u094b",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/142848410_Group%20%282%29.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673958425",
+        "app_id": "74"
+      },
+      {
+        "id": "11",
+        "title": "\u0926\u0941\u0928\u093f\u092f\u093e",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/275425711_Frame%20%282%29.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673958452",
+        "app_id": "74"
+      },
+      {
+        "id": "12",
+        "title": "\u092e\u0928\u094b\u0930\u0902\u091c\u0928",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/291646312_Frame%20%281%29.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673958560",
+        "app_id": "74"
+      },
+      {
+        "id": "13",
+        "title": "\u0930\u093e\u091c\u094d\u092f",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/205614813_Vector.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673958585",
+        "app_id": "74"
+      },
+      {
+        "id": "14",
+        "title": "\u0926\u0947\u0936",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/452940114_videos%203.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673958621",
+        "app_id": "74"
+      },
+      {
+        "id": "15",
+        "title": "\u092c\u093f\u095b\u0928\u0947\u0938",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/81783615_Group%20%285%29.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673958912",
+        "app_id": "74"
+      },
+      {
+        "id": "16",
+        "title": "\u0916\u0947\u0932",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/372696916_Group%20%281%29.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673958939",
+        "app_id": "74"
+      },
+      {
+        "id": "17",
+        "title": "\u0939\u0947\u0932\u094d\u0925",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/685278717_Group%20%284%29.png",
+        "type": "2",
+        "menu_action_element": "0",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673958974",
+        "app_id": "74"
+      },
+      {
+        "id": "18",
+        "title": "\u0932\u093e\u0907\u092b\u0938\u094d\u091f\u093e\u0907\u0932",
+        "icon": "https:\/\/d1wxh31cdpnls0.cloudfront.net\/74\/admin_v1\/app_config\/menu_icon\/351373418_Vector%20%281%29.png",
+        "type": "1",
+        "menu_action_element": "1",
+        "position": "0",
+        "menu_side": "1",
+        "created_on": "1673958995",
+        "app_id": "74"
+      }
+    ],
+    "bottom_menu": []
+  },
+  "time": 1674025256,
+  "interval": 10,
+  "limit": 0,
+  "cd_time": 16738709217652
+}

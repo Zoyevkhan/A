@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_marginRight="10dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/itemContainer"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/itemRL"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape"
+        android:padding="15dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/mainImageView"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:outlineProvider="background"
+            android:src="@drawable/image_dummy"
+            app:shapeAppearanceOverlay="@style/roundedImageView"
+            android:scaleType="centerCrop"
+            />
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:background="#B32C2C2C"
+            android:layout_marginStart="20dp"
+            android:visibility="visible"
+            android:layout_below="@id/mainImageView"
+            android:layout_marginTop="-40dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_youtube" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/hind_regular"
+                android:text="05:10"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mainImageView"
+            android:text="यूक्रेन को न्यूक्लियर सुरक्षा हथियार देगा NATO, युद्ध को आज पूरे हुए 29 दिन"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/hind_regular"
+            android:textColor="@color/black_text"
+            android:textSize="14dp"
+            />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

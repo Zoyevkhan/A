@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp8">
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="@dimen/dp96"
+            android:background="@drawable/state_shape_unselect"
+            android:layout_marginTop="@dimen/dp8"
+            android:layout_marginLeft="@dimen/dp8"
+            android:layout_height="@dimen/dp96">
+
+            <ImageView
+                android:layout_width="@dimen/dp44"
+                android:layout_height="@dimen/dp44"
+                android:src="@drawable/splash_logo"
+                android:id="@+id/logo"
+                android:layout_marginTop="@dimen/dp10"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:text="@string/app_name"
+                android:padding="@dimen/dp8"
+                android:fontFamily="@font/hind_regular"
+                android:textSize="@dimen/dp14"
+                android:textColor="@color/app_text_color"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/logo"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="@dimen/dp18"
+            android:src="@drawable/option_select"
+            android:layout_toEndOf="@+id/container"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="-10dp"
+            android:id="@+id/selectImage"
+            android:layout_height="@dimen/dp18" />
+    </RelativeLayout>
+</layout>
